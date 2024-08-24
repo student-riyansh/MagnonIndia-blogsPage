@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# To internally serve requests without .html extension
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+# Optional: To redirect from .html to no extension (for SEO purposes)
+RewriteCond %{THE_REQUEST} \s([^.]+)\.html\s [NC]
+RewriteRule ^ %1 [R=301,L]

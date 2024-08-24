@@ -1,0 +1,239 @@
+:root {
+  /* --theme-color: #f4c36d; */
+  --theme-color: #61C419;
+
+
+}
+
+/*===== Background Color =====*/
+.thm-bg,
+.thm-layer:before,
+.search-close-btn,
+nav ul ul li > a span:before,
+.about-img-cap > a:hover,
+.about-img-cap > a:focus,
+.post-info > h3 a:hover i,
+.post-info > h3 a:focus i,
+.serv-box:hover > span,
+.check-box [type="checkbox"]:not(:checked) + label:after,
+.check-box [type="checkbox"]:checked + label:after,
+.area-filter .noUi-handle,
+.price-filter .noUi-handle,
+.price-filter .noUi-connect,
+.proj-calc-body-box .quantity .bootstrap-touchspin > span.input-group-btn button:hover:before,
+.proj-calc-body-box .quantity .bootstrap-touchspin > span.input-group-btn button:focus:before,
+.proj-calc-body-box .quantity .bootstrap-touchspin > span.input-group-btn button:hover:after,
+.proj-calc-body-box .quantity .bootstrap-touchspin > span.input-group-btn button:focus:after,
+.fact-box > h2 + h5::before,
+.package-box.active,
+.package-box:hover,
+.cont-inner:before,
+.cont-inner:after,
+.widget-box ul li a:before,
+.widget-gallery a::before,
+.step-box:hover > span,
+.thm-btn.bg-color1:hover,
+.thm-btn.bg-color1:focus,
+.about-fact-box:before,
+.photo-info-box > span i,
+.why-choose-info > span:before,
+.toggle-item > h4 span::before,
+.stage-box:hover .stage-head:after,
+.serv-banner-box:not(.v2):before,
+.about-serv-info > span:before,
+.customBtns > div:hover,
+.customBtns > div:focus,
+.timeline-box-wrap.active .timeline-box-head > span i,
+.exc-proj-list > li:hover > span,
+.roadmap-img:before,
+.roadmap-box:hover .roadmap-info-wrap > span,
+.package-box.v2.active .package-body > a.thm-btn:hover,
+.package-box.v2.active .package-body > a.thm-btn:focus,
+.package-box2:before,
+.package-box2:after,
+.packages-caro > button.slick-arrow:hover,
+.packages-caro > button.slick-arrow:focus,
+.port-dtl-img-caro > button.slick-arrow:hover,
+.port-dtl-img-caro > button.slick-arrow:focus,
+.blog-img-caro > button.slick-arrow:hover,
+.blog-img-caro > button.slick-arrow:focus,
+.cont-info-box:hover > span,
+.blog-post-info-bottom > a.position-absolute:hover,
+.blog-post-info-bottom > a.position-absolute:focus,
+.blog-post-info2 > h3 a:hover i,
+.blog-post-info2 > h3 a:focus i,
+.blog-tag:not(.thm-bg):hover,
+.blog-tag:not(.thm-bg):focus,
+.widget-box2 form > button:hover,
+.widget-box2 form > button:focus,
+.shop-img > a:not(.shop-like):hover,
+.shop-img > a:not(.shop-like):focus,
+.menu-close:hover,
+.menu-close:focus
+{
+	background-color: var(--theme-color);
+}
+
+/*===== Text Color =====*/
+.thm-clr,
+nav div.nav-right ul li:hover > a,
+nav div.nav-right ul li.active > a,
+nav div.nav-right ul li > a:focus,
+nav > div:not(.nav-right) > ul > li.menu-item-has-children > a::before,
+nav ul ul li.active > a::before,
+nav ul ul li.menu-item-has-children:hover > a::before,
+nav ul ul li.menu-item-has-children > a:focus:before,
+.header-search > form button:hover,
+.header-search > form button:focus,
+.about-img-cap > a,
+.post-info > h3 a:hover,
+.post-info > h3 a:focus,
+.serv-info > h3 a:hover,
+.serv-info > h3 a:focus,
+.slc-box::before,
+.proj-info > h3 a:hover,
+.proj-info > h3 a:focus,
+.fact-box:hover > h2,
+.scl-links > a,
+.copyright-inner > p a:hover,
+.copyright-inner > p a:focus,
+.copyright-inner > ul li a:hover,
+.copyright-inner > ul li a:focus,
+.serv-info2 > h3 a:hover,
+.serv-info2 > h3 a:focus,
+.slick-slider > button.slick-arrow:hover,
+.slick-slider > button.slick-arrow:focus,
+.proj-info2 > h3 a:hover,
+.proj-info2 > h3 a:focus,
+.scl-links.v2 > a:hover,
+.scl-links.v2 > a:focus,
+.team-info > h3 a:hover,
+.team-info > h3 a:focus,
+.blog-post-info > h3 a:hover,
+.blog-post-info > h3 a:focus,
+.photo-info-box-inner > h3 a:hover,
+.photo-info-box-inner > h3 a:focus,
+.team-info2 > h3 a:hover,
+.team-info2 > h3 a:focus,
+ol.breadcrumb > li.breadcrumb-item a:hover,
+ol.breadcrumb > li.breadcrumb-item a:focus,
+.about-serv-info > a:hover,
+.about-serv-info > a:focus,
+.port-tabs-wrap ul.nav-tabs li.nav-item a.nav-link:hover,
+.port-tabs-wrap ul.nav-tabs li.nav-item a.nav-link:focus,
+.about-me-info li a:hover,
+.about-me-info li a:focus,
+.timeline-box > h4 a:hover,
+.timeline-box > h4 a:focus,
+.cont-info-list > li a:hover,
+.cont-info-list > li a:focus,
+.port-info > h3 a:hover,
+.port-info > h3 a:focus,
+.port-info2 > h3 a:hover,
+.port-info2 > h3 a:focus,
+.port-info3 > h3 a:hover,
+.port-info3 > h3 a:focus,
+.port-info2 > a:hover,
+.port-info2 > a:focus,
+.port-cover-info > h3 a:hover,
+.port-cover-info > h3 a:focus,
+.blog-post-info2 > h3 a:hover,
+.blog-post-info2 > h3 a:focus,
+.blog-meta > li a:hover,
+.blog-meta > li a:focus,
+.blog-post-link-box > a:hover,
+.blog-post-link-box > a:focus,
+.blog-post-info-bottom > a:not(.thm-bg):hover,
+.blog-post-info-bottom > a:not(.thm-bg):focus,
+.popular-post-info > h4 a:hover,
+.popular-post-info > h4 a:focus,
+.top-product-info > h4 a:hover,
+.top-product-info > h4 a:focus,
+.tagcloud > a:hover,
+.tagcloud > a:focus,
+.pagination-wrap > a:hover,
+.pagination-wrap > a:focus,
+.shop-info > h3 a:hover,
+.shop-info > h3 a:focus,
+.shop-rate > a:hover,
+.shop-rate > a:focus,
+.shop-detail-bottom ul li a:hover,
+.shop-detail-bottom ul li a:focus,
+.shop-detail-bottom ul li span a:hover,
+.shop-detail-bottom ul li span a:focus,
+.minicart-info > h6 a:hover, 
+.minicart-info > h6 a:focus
+{
+	color: var(--theme-color);
+}
+
+/*===== SVG Fill Color =====*/
+svg.fill-clr *,
+.reviw-info > i svg path:first-child
+{
+	fill: var(--theme-color);
+}
+
+/*===== SVG Stroke Color =====*/
+svg.stroke-clr *,
+.reviw-info > i svg path:last-child
+{
+	stroke: var(--theme-color);
+}
+
+/*===== Border Color =====*/
+.thm-brd-clr,
+.about-img-cap > a,
+.proj-info::before,
+.thm-btn.bg-color1 span,
+.dark-layer .thm-btn span,
+.photo-info-img:before,
+.photo-info-box > span i:before,
+.photo-info-box-inner:before,
+.faq-img:before,
+.toggle-item > h4 i,
+.gallery-box > a:before,
+.team-img2 > a:before,
+.serv-banner-box.v2:before,
+.about-me-desc .thm-btn.bg-color1:hover span,
+.about-me-desc .thm-btn.bg-color1:focus span,
+.timeline-box-head > span i:before,
+.video-inner,
+.video-img > a:before,
+.faq-que-box > span:not(.qu),
+.gallery-box2 > span a::before,
+.package-box.v2::before,
+.package-box.v2.active .package-body > a.thm-btn span,
+.port-img > a:not(.thm-btn):before,
+.port-box.v2 .port-img:before,
+.port-info2:before,
+.port-img3 > span a:before,
+.author-widget-img,
+.author-box-img,
+.slick-current .shop-nav-img,
+.slick-slider:not(.feat-caro) ul.slick-dots > li.slick-active button,
+.slick-slider:not(.feat-caro) ul.slick-dots > li button:hover,
+.slick-slider:not(.feat-caro) ul.slick-dots > li button:focus
+{
+	border-color: var(--theme-color);
+}
+
+
+{
+	border-top-color: var(--theme-color);
+}
+
+
+{
+	border-bottom-color: var(--theme-color);
+}
+
+
+{
+	border-left-color: var(--theme-color);
+}
+
+
+{
+	border-right-color: var(--theme-color);
+}

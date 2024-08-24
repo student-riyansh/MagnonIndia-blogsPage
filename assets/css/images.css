@@ -1,0 +1,22 @@
+.responsive-img {
+    width: 100%;
+    height: auto;
+}
+.responsive-img {
+    width: 100%;
+    height: auto;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+    .responsive-img {
+        max-width: 100%; /* Optional: ensures image doesn’t exceed container width */
+    }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+    .responsive-img {
+        /* Additional styling for smaller screens if needed */
+    }
+}

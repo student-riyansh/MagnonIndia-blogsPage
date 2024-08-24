@@ -1,0 +1,92 @@
+<style>
+  html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+   
+  }
+
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.sidebar {
+    width: 300px; 
+    background-color:white;
+    padding-bottom: 80px;
+    position: fixed;
+    top: 130px; 
+    bottom: 120px;
+    right: 0; 
+    height: auto; 
+    max-height: calc(100vh - 50px); 
+    overflow-y: auto; 
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.3s ease, visibility 0.3s ease; 
+    z-index: 500px; 
+}
+
+@media (max-width: 1300px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+.sidebar.show {
+    opacity: 1; 
+    visibility: visible; 
+}
+
+.sidebar:hover {
+    opacity: 1; 
+    visibility: visible; 
+}
+
+.sidebar h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style-type: disc;
+    
+}
+
+.sidebar ul li {
+    margin-bottom: 0px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+   
+    margin-right: 0px; 
+    width: calc( 1370px); 
+    position: relative; 
+}
+
+section {
+    margin-bottom: 10px;
+    padding-top:50px;
+    
+}
+
+section h1 {
+    font-size: 35px;
+}
+ </style>
+

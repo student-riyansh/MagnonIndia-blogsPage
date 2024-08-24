@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /backup/
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Disallow: /user/
+Disallow: /settings/
+Disallow: /account/
+Allow: /
+Sitemap: https://www.magnonindia.com/sitemap.xml

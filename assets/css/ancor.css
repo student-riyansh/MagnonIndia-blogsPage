@@ -1,0 +1,36 @@
+<style>
+    html, body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+}
+
+.container {
+padding: 20px;
+}
+
+h1 {
+font-size: 24px;
+color: #333;
+}
+
+.link-list {
+list-style-type: none;
+padding: 0;
+}
+
+.link-list li {
+margin: 10px 0;
+}
+
+.link-list a {
+text-decoration: none;
+color: #1a73e8; /* A color for the links */
+font-size: 18px;
+}
+
+.link-list a:hover {
+text-decoration: underline; /* Underline on hover for better UX */
+color: #0c59c0; /* Slightly darker color on hover */
+}
+    </style>
